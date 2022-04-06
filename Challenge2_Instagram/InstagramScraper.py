@@ -22,8 +22,8 @@ username=driver.find_element_by_css_selector("input[name='username']")
 password=driver.find_element_by_css_selector("input[name='password']")
 username.clear()
 password.clear()
-username.send_keys("sophiajewelryshop")
-password.send_keys("K7!obFSboVG2mmW")
+username.send_keys("***********")#Use your instagram account credentials
+password.send_keys("***********")#Don't use your main account
 login = driver.find_element_by_css_selector("button[type='submit']").click()
 
 #save your login info?
